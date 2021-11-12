@@ -44,11 +44,26 @@
     <div>
         <form action="">
             <h2>Pedi tu funko por encargue</h2>
-            <input type="text" value="Enviar ">
+            <label for="NOMBRE_APELLIDO">NOMBRE</label>
+            <input type="text" name="NOMBRE_APELLIDO">
+            <br>
+            <label for="Funko_deseado">Funko deseado</label>   
+            <input type="text" name="Funko_deseado">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <input type="button" value="ENVIAR">
         </form>
         <form action="">
             <span>Enviar email</span>
             <input type="checkbox" name="ACEPTAR" value="1">
+        </form>
+        <form action="">
+            <select name="Tipos" id="">
+                <option value="DC">DC</option>
+                <option value="MARVEL">MARVEL</option>
+                <option value="HARRY POTTER">HARRY POTTER</option>
+            </select>
         </form>
 
     </div>

@@ -43,3 +43,8 @@ h3{
     padding: 50px;
     margin: auto;
 }
+.redes{
+    padding: 25px;
+    display: flex;
+    flex-direction: inherit;
+}

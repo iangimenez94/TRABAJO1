@@ -9,6 +9,7 @@
 nav ul {
     display: flex;
     flex-direction: row;
+    margin: 75px;
 }
 ul li {
     font-family: 'Franklin Gothic Medium';
@@ -44,7 +45,9 @@ h3{
     margin: auto;
 }
 .redes{
-    padding: 25px;
     display: flex;
     flex-direction: inherit;
 }
+ p{
+     font-style: italic;
+ }

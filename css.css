@@ -1,0 +1,45 @@
+.tituloFunko{
+    background-color: black;
+    font-family: fantasy; color:orange;
+    width: 400px;
+    border: 5px solid rgba(255, 166, 0, 0.945);
+    padding: 50px;
+    margin: auto ; 
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+ul li {
+    font-family: 'Franklin Gothic Medium';
+    list-style: none;
+    padding: 25px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul li :hover{
+    color: orange;
+}
+h2{
+    font-size: 35px ;
+    color: rgba(255, 166, 0, 0.945);
+}
+h3{
+    color: rgba(248, 232, 2, 0.938);
+}
+.masPopulares{
+    background-color: black ;
+    width: 1000px;
+    border: 10px solid rgba(255, 166, 0, 0.945);
+    padding: 50px;
+    margin: auto;
+}
+.recientes{
+    background-color: black ;
+    width: 1000px;
+    border: 10px solid rgba(255, 166, 0, 0.945);
+    padding: 50px;
+    margin: auto;
+}

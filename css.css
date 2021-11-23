@@ -35,7 +35,7 @@ ul li a {
 ul li :hover{
     color: orange;
 }
-.padreFlex{
+#padreFlex{
     display: flex;
     flex-direction: row;
 }
@@ -49,18 +49,18 @@ h3{
 .masPopulares{
     background-color: black ;
     width: 1000px;
-    height: 1500px;
+    height: 800px;
     border: 10px solid rgba(255, 166, 0, 0.945);
-    padding: 50px;
-    margin: auto;
+    padding: 50px; 
+    overflow: scroll;
 }
 .recientes{
     background-color: black ;
     width: 1000px;
-    height: 1500px;
+    height: 800px;
     border: 10px solid rgba(255, 166, 0, 0.945);
     padding: 50px;
-    margin: auto;
+    overflow: scroll;
 }
 .redes{
     display: flex;

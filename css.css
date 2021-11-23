@@ -20,7 +20,7 @@ body{
 nav ul {
     display: flex;
     flex-direction: row;
-    margin: 75px;
+    margin: 75px; 
 }
 ul li {
     font-family: 'Franklin Gothic Medium';
@@ -35,6 +35,10 @@ ul li a {
 ul li :hover{
     color: orange;
 }
+.padreFlex{
+    display: flex;
+    flex-direction: row;
+}
 h2{
     font-size: 35px ;
     color: rgba(255, 166, 0, 0.945);
@@ -45,6 +49,7 @@ h3{
 .masPopulares{
     background-color: black ;
     width: 1000px;
+    height: 1500px;
     border: 10px solid rgba(255, 166, 0, 0.945);
     padding: 50px;
     margin: auto;
@@ -52,6 +57,7 @@ h3{
 .recientes{
     background-color: black ;
     width: 1000px;
+    height: 1500px;
     border: 10px solid rgba(255, 166, 0, 0.945);
     padding: 50px;
     margin: auto;

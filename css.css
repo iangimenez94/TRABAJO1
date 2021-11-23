@@ -40,7 +40,7 @@ ul li :hover{
 #padreFlex{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    align-items: baseline;
 }
 h2{
     font-size: 35px ;
@@ -53,7 +53,7 @@ h3{
     background-color: black ;
     width: 850px;
     height: 700px;
-    border: 10px solid rgba(255, 166, 0, 0.945);
+    border: 7px solid rgba(255, 166, 0, 0.945);
     padding: 50px; 
     overflow: scroll;
     justify-content: center;
@@ -62,12 +62,12 @@ h3{
     background-color: black ;
     width: 850px;
     height: 700px;
-    border: 10px solid rgba(255, 166, 0, 0.945);
+    border: 7px solid rgba(255, 166, 0, 0.945);
     padding: 50px;
     overflow: scroll;
     justify-content: center;
 }
-.redes{
+.social{
     display: flex;
     flex-direction: inherit;
     flex-wrap: wrap;

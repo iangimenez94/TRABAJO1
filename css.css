@@ -58,7 +58,8 @@ h3{
     background-color: rgba(0, 0, 0, 0.76) ;
     width: 850px;
     height: 700px;
-    border: 7px solid rgba(255, 166, 0, 0.945);
+    border: 3px solid rgba(255, 166, 0, 0.945);
+    border-radius: 7px;
     padding: 50px; 
     overflow: scroll;
 }
@@ -66,7 +67,8 @@ h3{
     background-color: rgba(0, 0, 0, 0.76);
     width: 850px;
     height: 700px;
-    border: 7px solid rgba(255, 166, 0, 0.945);
+    border: 3px solid rgba(255, 166, 0, 0.945);
+    border-radius: 7px;
     padding: 50px;
     overflow: scroll;
 }

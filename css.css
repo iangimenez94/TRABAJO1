@@ -1,3 +1,5 @@
+
+
 body{
     background-image: url(../TRABAJO1/imagenfunko/funko\ logo\ 4.jpg);
     background-position: center;
@@ -5,6 +7,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 .tituloFunko{
     background-color: rgba(0, 0, 0, 0.849);

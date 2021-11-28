@@ -65,6 +65,7 @@ h3{
     border-radius: 7px;
     padding: 50px; 
     overflow: scroll;
+    transform:translate(10px,10px);
 }
 .recientes{
     background-color: rgba(0, 0, 0, 0.76);
@@ -74,6 +75,7 @@ h3{
     border-radius: 7px;
     padding: 50px;
     overflow: scroll;
+    transform:translate(10px,10px);
 }
 /* LICENCIAS */
 #licencias{
@@ -147,4 +149,12 @@ ul li a {
     grid-gap: 10px;
     justify-items: center;
 }
+/* EDICION PAGINA MARVEL */
 
+.marvelEngGame{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    justify-items: center;
+}

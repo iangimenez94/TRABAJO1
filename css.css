@@ -149,6 +149,18 @@ ul li a {
     grid-gap: 10px;
     justify-items: center;
 }
+.listadoPrimero ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.listadoPrimero ul li{
+    font-size: 20px;
+    color: rgb(22, 15, 15);
+    justify-content: center;
+}
+
+
 /* EDICION PAGINA MARVEL */
 
 .marvelEngGame{

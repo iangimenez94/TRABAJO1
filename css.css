@@ -20,6 +20,7 @@ body{
     position: relative;
     top: 10px;
     text-align: center;
+    transform: skewX(10deg);
 }
 /* NAVEGADOR */
 nav ul {
@@ -51,6 +52,17 @@ h2{
     font-size: 35px ;
     color: rgba(255, 166, 0, 0.945);
     text-align: center;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 h3{
     color: rgba(248, 232, 2, 0.938);

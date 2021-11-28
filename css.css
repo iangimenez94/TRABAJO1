@@ -158,3 +158,10 @@ ul li a {
     grid-gap: 10px;
     justify-items: center;
 }
+.marvelConocidos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    justify-items: center;
+}

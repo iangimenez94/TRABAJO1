@@ -214,3 +214,11 @@ ul li a {
 .boton{
     border-radius: 4px;
 }
+/* EDICION PAGINA DC COMICS */
+.comicon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    justify-items: center;
+}

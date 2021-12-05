@@ -198,3 +198,19 @@ ul li a {
     justify-items: center;
 }
 
+/* BOTON ENVIAR DE PAGINA CONTACTO */
+.boton{
+    background-color: lightcoral;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 40px;
+    cursor: pointer;
+}
+.boton{
+    border-radius: 4px;
+}

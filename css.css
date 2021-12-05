@@ -51,7 +51,7 @@ h2{
     font-size: 35px ;
     color: rgba(255, 166, 0, 0.945);
     text-align: center;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: initial;
 }

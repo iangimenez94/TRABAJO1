@@ -19,7 +19,15 @@ body{
     position: relative;
     top: 10px;
     text-align: center;
-    transform: skewX(10deg);
+    animation: colores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colores{
+    0%   {background-color: red;}
+    25%  {background-color: blue;}
+    50%  {background-color: yellow;}
+    75% {background-color: green;}
 }
 /* NAVEGADOR */
 nav ul {
@@ -55,6 +63,7 @@ h2{
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
+/* animacion h2 */
 @keyframes aparecer {
     0%{
         opacity: 0;

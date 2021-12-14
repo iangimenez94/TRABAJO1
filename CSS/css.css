@@ -226,5 +226,7 @@ ul li a {
     grid-gap: 10px;
     justify-items: center;
 }
-
-/* n */
+/* edicion de enlaces de redes pagina marvel */
+.row{
+    padding: 25px 18px 5px 12px;
+}

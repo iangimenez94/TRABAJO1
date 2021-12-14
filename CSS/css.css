@@ -1,6 +1,6 @@
 /* IMAGEN DE FONDO */
 body{
-    background-image: url(../TRABAJO1/imagenfunko/funko\ logo\ 4.jpg);
+    background-image: url(../imagenfunko/funko\ logo\ 4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,9 +140,10 @@ p{
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
-    justify-items: center;}
+    justify-items: center;
+}
 footer{
-    background-image: url(../TRABAJO1/imagenfunko/wppinsta.jpg);
+    background-image: url(../imagenfunko/wppinsta.jpg);
     background-position: center;
 }
 ul li a {

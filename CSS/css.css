@@ -17,7 +17,7 @@ body{
     padding: 50px;
     margin: auto ; 
     position: relative;
-    top: 10px;
+    top: ;
     text-align: center;
     animation: colores;
     animation-duration: 5s;
@@ -60,6 +60,7 @@ h2{
     font-size: 35px ;
     color: rgba(255, 166, 0, 0.945);
     text-align: center;
+    padding: 30px;
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: initial;

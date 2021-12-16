@@ -1,6 +1,6 @@
 /* IMAGEN DE FONDO */
 body{
-    background-image: url(../imagenfunko/funko\ logo\ 4.jpg);
+    background-color: rgba(6, 166, 240, 0.842);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -229,4 +229,11 @@ ul li a {
 /* edicion de enlaces de redes pagina marvel */
 .row{
     padding: 25px 18px 5px 12px;
+}
+
+.marvelcito{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
 }

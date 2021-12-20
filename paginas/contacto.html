@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/css.css">
     <title>Contacto</title>
 </head>
 <body>
-    <header >
-        <h1 class="tituloFunko">ENCARGA TU FUNKO </h1>
-        <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Inicio</a>  
-            </li>
-            <li>
-                <a href="../paginas/HarryPotter.html">Harry Potter</a> 
-            </li>
-            <li>
-                <a href="../paginas/Marvel.html">Marvel</a>
-
-            </li>
-            <li>
-                <a href="../paginas/DC.HTML">DC</a>
-            </li>
-            <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-            </li>
-        </ul>
+    <header>
+        <nav class="marvelcito">
+            <div >
+                <img src="../imagenfunko/funko logo 2.png" alt="">
+            </div>   
+        <div class="btn-group">
+            <button type="button"class="btn btn-success ">
+                <a href="../index.html">Inicio</a>
+            </button>
+            <button type="button"   class="btn btn-success">
+                <a href="../paginas/historia.html">Que son los Funko?</a>
+            </button> 
+            <div class="btn-group">
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                    Ediciones
+                </button> 
+                <div class="dropdown-menu" style="background-color: orange;">
+                    <a class="dropdown-item" href="../paginas/HarryPotter.html">HARRY POTTER</a>
+                    <a class="dropdown-item" href="../paginas/Marvel.html">MARVEL</a>
+                    <a class="dropdown-item" href="../paginas/DC.HTML">DC</a>
+                    <a class="dropdown-item" href="../paginas/contacto.html">CONTACTO</a>
+                </div>
+            </div>
+        </div>
         </nav>
-        </header>
+    </header>
         <main>
             <div class="encargues">
                 <form action="">
@@ -56,19 +63,18 @@
             <br>
             <br>
             <footer id="redes">
-                <br>
-                <br>
-                <ul class="social">
-                    <li><a target="_blank" href="https://www.instagram.com/?hl=es">INSTAGRAM</a></li>
-                    <li><a target="_blank"href="https://www.facebook.com/">FACEBOOK</a></li>
-                    <li><a target="_blank"href="https://www.whatsapp.com/?lang=es">WHATSAPP</a></li>
-                    <li><a target="_blank"href="https://telegram.org/">TELEGRAM</a></li>
-                    <li><a target="_blank"href="https://www.tiktok.com/">TIKTOK</a></li>
-                    <li><a target="_blank"href="https://www.youtube.com/index">YOUTUBE</a></li>
-                    
+                <div class="container">
+                <ul class="row">
+            <div class="col-md-2" ><a class="btn btn-warning" href="https://www.instagram.com/?hl=es">INSTAGRAM</a>  </div>
+            <div class="col-md-2"><a class="btn btn-primary" href="https://www.facebook.com/">FACEBOOK</a></div>
+            <div class="col-md-2"><a class="btn btn-success" href="https://www.whatsapp.com/?lang=es">WHATSAPP</a></div>
+            <div class="col-md-2"><a class="btn btn-primary" href="https://telegram.org/">TELEGRAM</a></div>
+            <div class="col-md-2"><a class="btn btn-dark" href="https://www.tiktok.com/">TIKTOK</a></div>
+            <div class="col-md-2"><a class="btn btn-danger" href="https://www.youtube.com/index">YOUTUBE</a></div> 
                 </ul>
-                <p>Pagina creada por ian gimenez</p>
-                </footer>
+            </div>
+            <p>Pagina creada por ian gimenez</p>
+            </footer>
     
             </body>
             </html>

@@ -1,6 +1,6 @@
 /* IMAGEN DE FONDO */
 body{
-    background-color: rgba(6, 166, 240, 0.842);
+    background-color: #06a6f0d7;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -116,7 +116,7 @@ h3{
 }
 
 p{
-    color: rgba(255, 166, 0, 0.945);
+    color: rgba(43, 42, 41, 0.733);
     font-size: 25px;
     font-family: 'Lucida Sans';
     text-align: center;

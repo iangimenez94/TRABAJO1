@@ -8,52 +8,44 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../TRABAJO1/CSS/css.css">  
+    <link rel="stylesheet" href="../TRABAJO1/SCSS/estilos.css">  
     <title>Tienda Funko Pop
     </title>  
 </head>
 <body>
-    <header >        
-    <h1 class="tituloFunko" >   LOS MEJORES FUNKO POP</h1>      
-    <nav class="wow animate__rubberBand">
-        <ul>
-            <li>
-                <a href="../TRABAJO1/index.html">Inicio</a>  
-            </li>
-            <li>
-                <a href="../TRABAJO1/paginas/historia.html">Que son los Funko?</a>  
-            </li>
-            <li>
-                <a href="./paginas/HarryPotter.html">Harry Potter</a> 
-            </li>
-            <li>
-                <a href="./paginas/Marvel.html">Marvel</a>
-            </li>
-            <li>
-                <a href="./paginas/DC.HTML">DC</a>
-            </li>
-            <li>
-                <a href="./paginas/contacto.html">Contacto</a>
-            </li>
-        
-        </ul>
-    </nav>
-
-    </header >
-        <h2>¿QUÉ ES EXACTAMENTE UN MUÑECO FUNKO POP?</h2>
-            <p>Un Funko Pop es un muñeco cabezón de vinilo que imita en forma a una persona o personaje.</p>
-        <h2>¿CUÁNTOS FUNKOS HAY?</h2>
-            <p>Estoy seguro de que ni por asomo se imaginan que ya existen más de mil
-            muñecos Funko Pop!.</p>
-            <h2>¿POR QUE COMPRAR UN MUÑECO FUNKO POP?</h2>
-            <p>Regalar un Funko Pop es sinónimo de éxito, estas figuras se han convertido en reclamo para los coleccionistas, y a un precio accesible para el bolsillo de todos. Esta popularidad se repite en los muñecos que representan a muchas sagas, películas o videojuegos reconocidos por el gran público.</p>
+    <header>
+        <nav class="marvelcito">
+            <div >
+                <img src="./imagenfunko/funko logo 2.png" alt="">
+            </div>   
+        <div class="btn-group">
+            <button type="button"class="btn btn-success ">
+                <a href="./index.html">Inicio</a>
+            </button>
+            <button type="button"   class="btn btn-success">
+                <a href="./paginas/historia.html">Que son los Funko?</a>
+            </button> 
+            <div class="btn-group">
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                    Ediciones
+                </button> 
+                <div class="dropdown-menu" style="background-color: orange;">
+                    <a class="dropdown-item" href="./paginas/HarryPotter.html">HARRY POTTER</a>
+                    <a class="dropdown-item" href="./paginas/Marvel.html">MARVEL</a>
+                    <a class="dropdown-item" href="./paginas/DC.HTML">DC</a>
+                    <a class="dropdown-item" href="./paginas/contacto.html">CONTACTO</a>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </header>
         <main id="padreFlex">
-
+        
         <div class="masPopulares">
-        <h2 >Best Sellers</h2>
-            <h3 >HARRY POTTER</h2>
-                <img src="imagenfunko/serie1/1harrypotter/51GFh1Yx4zL._AC_.jpg" width="200" > 
-                <img src="imagenfunko/serie1/1harrypotter/51S2uoQr46L._AC_SL1000_.jpg" width="200" >
+        <h2 class="masPopulares__tit">Best Sellers</h2>
+            <h3 class="masPopulares__sub">HARRY POTTER</h2>
+                <img class="masPopulares__img" src="imagenfunko/serie1/1harrypotter/51GFh1Yx4zL._AC_.jpg" width="200" > 
+                <img class="masPopulares__img" src="imagenfunko/serie1/1harrypotter/51S2uoQr46L._AC_SL1000_.jpg" width="200" >
             <h3>RON WEASLEY</h2>
                 <img src="imagenfunko/serie1/2Ron Weasley/31ca78Y5ZSL._AC_.jpg" width="200">
                 <img src="imagenfunko/serie1/2Ron Weasley/51BOR2iiFUL._AC_.jpg" width="200">

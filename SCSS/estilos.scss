@@ -1,3 +1,9 @@
+$rojito: rgba(255, 0, 0, 0.712);
+$letraT : 50px;
+$letraS: 32px;
+
+
+
 /* IMAGEN DE FONDO */
 body{
     background-color: #06a6f0d7;
@@ -77,8 +83,11 @@ h3{
     color: rgba(248, 232, 2, 0.938);
     text-align: center;
 }
+
+
 /*  LOS DOS DIV PRINCIPALES*/
-.masPopulares{
+
+.masPopulares {
     background-color: rgba(0, 0, 0, 0.76) ;
     width: 850px;
     height: 700px;
@@ -87,6 +96,15 @@ h3{
     padding: 50px; 
     overflow: scroll;
     transform:translate(10px,10px);
+}
+.masPopulares__tit{
+    font-size: $letraT;
+    color: $rojito;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.masPopulares__sub{
+    font-size: $letraS;
+
 }
 
 .recientes{

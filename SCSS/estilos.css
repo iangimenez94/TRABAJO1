@@ -164,6 +164,10 @@ h3 {
   font-size: 32px;
 }
 
+.masPopulares__imagen {
+  border-radius: 20px;
+}
+
 .recientes {
   background-color: rgba(0, 0, 0, 0.76);
   width: 850px;

@@ -120,6 +120,18 @@ h3{
     overflow: scroll;
     transform:translate(10px,10px);
 }
+.recientes__tit{
+    font-size: $letraT;
+    color: $rojito;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recientes__sub{
+    font-size: $letraS;
+}
+.recientes__imagen{
+    width: 220px;
+    border-radius: 20px;
+}
 /* LICENCIAS */
 #licencias{
     display: flex;

@@ -181,6 +181,21 @@ h3 {
           transform: translate(10px, 10px);
 }
 
+.recientes__tit {
+  font-size: 50px;
+  color: rgba(255, 0, 0, 0.712);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recientes__sub {
+  font-size: 32px;
+}
+
+.recientes__imagen {
+  width: 220px;
+  border-radius: 20px;
+}
+
 /* LICENCIAS */
 #licencias {
   display: -webkit-box;

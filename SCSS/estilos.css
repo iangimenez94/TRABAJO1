@@ -141,7 +141,7 @@ h3 {
   text-align: center;
 }
 
-/*  LOS DOS DIV PRINCIPALES*/
+/*  LOS DOS DIV PRINCIPALES */
 .masPopulares {
   background-color: rgba(0, 0, 0, 0.76);
   width: 850px;
@@ -197,7 +197,7 @@ h3 {
 }
 
 /* LICENCIAS */
-#licencias {
+.lic {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,11 +209,11 @@ h3 {
       flex-wrap: wrap;
   font-size: 20px;
   text-decoration: none;
-  color: violet;
+  color: rgba(87, 85, 85, 0.884);
 }
 
-#licencias :hover {
-  color: orange;
+.lic__lista:hover {
+  color: rgba(255, 0, 0, 0.425);
 }
 
 p {

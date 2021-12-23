@@ -1,7 +1,7 @@
 $rojito: rgba(255, 0, 0, 0.712);
 $letraT : 50px;
 $letraS: 32px;
-
+$grey: rgba(87, 85, 85, 0.884);
 
 
 /* IMAGEN DE FONDO */
@@ -85,8 +85,8 @@ h3{
 }
 
 
-/*  LOS DOS DIV PRINCIPALES*/
-
+/*  LOS DOS DIV PRINCIPALES */ 
+// /* ACA ARRANCA LO IMPLEMENTADO EN SASS1 */
 .masPopulares {
     background-color: rgba(0, 0, 0, 0.76) ;
     width: 850px;
@@ -133,18 +133,17 @@ h3{
     border-radius: 20px;
 }
 /* LICENCIAS */
-#licencias{
+.lic{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 20px;
     text-decoration: none;
-    color: violet;
-    
+    color:$grey;
 }
 
-#licencias :hover{
-    color: orange;
+.lic__lista:hover{
+    color: rgba(255, 0, 0, 0.425);
 }
 
 p{

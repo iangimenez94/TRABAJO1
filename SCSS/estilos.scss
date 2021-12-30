@@ -2,6 +2,23 @@ $rojito: rgba(255, 0, 0, 0.712);
 $letraT : 50px;
 $letraS: 32px;
 $grey: rgba(87, 85, 85, 0.884);
+$colorhover:rgba(207, 20, 20, 0.384);
+@mixin vista{
+    background-color: rgba(0, 0, 0, 0.76) ;
+    width: 850px;
+    height: 700px;
+    border: 3px solid rgba(34, 124, 228, 0.747);
+    border-radius: 7px;
+    padding: 50px; 
+    overflow: scroll;
+    transform:translate(10px,10px);
+
+}
+@mixin tit {
+    font-size: $letraT;
+    color: $rojito;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 /* IMAGEN DE FONDO */
@@ -34,27 +51,8 @@ body{
     50%  {background-color: yellow;}
     75% {background-color: green;}
 }
-/* NAVEGADOR */
-nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 75px; 
-}
-ul li {
-    font-family: 'Franklin Gothic Medium';
-    list-style: none;
-    padding: 25px;
-}
-ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
-ul li :hover{
-    color: orange;
-}
+
+
 /* MAIN */
 #padreFlex{
     display: flex;
@@ -88,19 +86,10 @@ h3{
 /*  LOS DOS DIV PRINCIPALES */ 
 // /* ACA ARRANCA LO IMPLEMENTADO EN SASS1 */
 .masPopulares {
-    background-color: rgba(0, 0, 0, 0.76) ;
-    width: 850px;
-    height: 700px;
-    border: 3px solid rgba(34, 124, 228, 0.747);
-    border-radius: 7px;
-    padding: 50px; 
-    overflow: scroll;
-    transform:translate(10px,10px);
+    @include vista();
 }
 .masPopulares__tit{
-    font-size: $letraT;
-    color: $rojito;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    @include tit();
 }
 .masPopulares__sub{
     font-size: $letraS;
@@ -111,19 +100,10 @@ h3{
 }
 
 .recientes{
-    background-color: rgba(0, 0, 0, 0.76);
-    width: 850px;
-    height: 700px;
-    border: 3px solid rgba(43, 223, 82, 0.747);
-    border-radius: 7px;
-    padding: 50px;
-    overflow: scroll;
-    transform:translate(10px,10px);
+    @include vista();
 }
 .recientes__tit{
-    font-size: $letraT;
-    color: $rojito;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    @include tit();
 }
 .recientes__sub{
     font-size: $letraS;
@@ -132,20 +112,24 @@ h3{
     width: 220px;
     border-radius: 20px;
 }
-/* LICENCIAS */
-.lic{
+
+ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-size: 20px;
-    text-decoration: none;
-    color:$grey;
+    justify-content: center;
+    margin: 70px; 
+    
+    li{
+        color: $grey;
+        font-family: 'Franklin Gothic Medium';
+        list-style: none;
+        padding: 25px;
+        
+    }   
 }
 
-.lic__lista:hover{
-    color: rgba(255, 0, 0, 0.425);
-}
-
+/* LICENCIAS */
 p{
     color: rgba(43, 42, 41, 0.733);
     font-size: 25px;
@@ -182,7 +166,7 @@ ul li a {
     background: hsla(24, 97%, 70%, 0.377);
     border-radius: 4px;
 }
-
+/* HASTA ACA IMPLEMENTE SASS */
 
 /* EDICION PAGINAS CONTACTO */
 .encargues{
